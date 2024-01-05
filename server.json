@@ -3,7 +3,7 @@
     {
       "id": "asdfssddsfdfsdfsd",
       "description": "Desenvolvimento de site",
-      "type":"income",
+      "type": "income",
       "category": "Venda",
       "price": 4000,
       "createdAt": "2023-01-01T03:32:33.792Z"
@@ -11,7 +11,7 @@
     {
       "id": "gdafsdfsdfssds",
       "description": "X tudo",
-      "type":"outcome",
+      "type": "outcome",
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2023-02-01T03:32:33.792Z"
@@ -19,7 +19,7 @@
     {
       "id": "gdassjfodjofdsiohiosds",
       "description": "Curso",
-      "type":"outcome",
+      "type": "outcome",
       "category": "Educação",
       "price": 400,
       "createdAt": "2023-03-01T03:32:33.792Z"
@@ -27,10 +27,42 @@
     {
       "id": "gdassfdoskpfjsdiofjuisdjds",
       "description": "Coleção de CD pirata",
-      "type":"income",
+      "type": "income",
       "category": "Venda",
       "price": 50,
       "createdAt": "2023-04-01T03:32:33.792Z"
+    },
+    {
+      "description": "erwerwe",
+      "price": 34234,
+      "category": "sdsdfs",
+      "type": "income",
+      "createdAt": "2024-01-05T18:43:02.806Z",
+      "id": "qcFwZQL"
+    },
+    {
+      "description": "sdasdas",
+      "price": 12231,
+      "category": "sdasdas",
+      "type": "income",
+      "createdAt": "2024-01-05T18:44:22.230Z",
+      "id": "MUeMv-a"
+    },
+    {
+      "description": "dasdasd",
+      "price": 32432,
+      "category": "aasdasd",
+      "type": "income",
+      "createdAt": "2024-01-05T18:55:47.060Z",
+      "id": "cZuTm2V"
+    },
+    {
+      "description": "weqweq",
+      "price": 34324,
+      "category": "dsfds",
+      "type": "outcome",
+      "createdAt": "2024-01-05T18:55:53.100Z",
+      "id": "sHWhnMd"
     }
   ]
 }
