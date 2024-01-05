@@ -8,6 +8,8 @@ Project from [Rocketseat](https://www.rocketseat.com.br/)
   - React
   - Styled Components
   - Typescript
+  - Radix Ui
+  - Json Server
 
 
 
