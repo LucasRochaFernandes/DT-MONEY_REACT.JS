@@ -1,3 +1,4 @@
+import * as Dialog from '@radix-ui/react-dialog'
 import { styled } from 'styled-components'
 
 export const HeaderContainer = styled.header`
@@ -29,3 +30,5 @@ export const NewTransactionButton = styled.button`
     background: ${(props) => props.theme['green-700']};
   }
 `
+
+export const Root = styled(Dialog.Root)``
