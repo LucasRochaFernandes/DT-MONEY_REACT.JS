@@ -63,6 +63,30 @@
       "type": "outcome",
       "createdAt": "2024-01-05T18:55:53.100Z",
       "id": "sHWhnMd"
+    },
+    {
+      "description": "kmkji",
+      "price": 548948,
+      "category": "jkjhn",
+      "type": "income",
+      "createdAt": "2024-01-06T01:51:51.763Z",
+      "id": "NpP7vEK"
+    },
+    {
+      "description": "3efsdf",
+      "price": 435345,
+      "category": "dsfsdfs",
+      "type": "income",
+      "createdAt": "2024-01-06T18:17:15.687Z",
+      "id": "XWMu_T7"
+    },
+    {
+      "description": "dsfdfs",
+      "price": 344444,
+      "category": "dsfdsfs",
+      "type": "outcome",
+      "createdAt": "2024-01-06T20:25:00.382Z",
+      "id": "tSv9i9D"
     }
   ]
 }
