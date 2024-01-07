@@ -66,4 +66,7 @@ export const SignInForm = styled.form`
       transition: background-color 0.2s;
     }
   }
+  span {
+    color: ${(props) => props.theme['red-300']};
+  }
 `
