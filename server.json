@@ -103,6 +103,38 @@
       "type": "income",
       "createdAt": "2024-01-06T23:18:20.340Z",
       "id": "OQYtUX4"
+    },
+    {
+      "description": "X tudo",
+      "price": 12,
+      "category": "Fast Food",
+      "type": "income",
+      "createdAt": "2024-01-15T12:27:27.946Z",
+      "id": "auvR7X1"
+    },
+    {
+      "description": "Netflix",
+      "price": 15,
+      "category": "Service",
+      "type": "outcome",
+      "createdAt": "2024-01-15T12:27:42.380Z",
+      "id": "PWKkPoL"
+    },
+    {
+      "description": "Development",
+      "price": 50,
+      "category": "Software",
+      "type": "income",
+      "createdAt": "2024-01-15T12:28:00.575Z",
+      "id": "KLSPIMz"
+    },
+    {
+      "description": "adasda",
+      "price": 2,
+      "category": "sadas",
+      "type": "income",
+      "createdAt": "2024-01-15T14:38:16.736Z",
+      "id": "ybhFGpc"
     }
   ]
 }

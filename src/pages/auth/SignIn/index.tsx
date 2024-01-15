@@ -1,9 +1,11 @@
+import { useAutoAnimate } from '@formkit/auto-animate/react'
 import { zodResolver } from '@hookform/resolvers/zod'
-import { useContext, useState } from 'react'
+import { AxiosError } from 'axios'
+import { useState } from 'react'
 import { useForm } from 'react-hook-form'
+import { useNavigate } from 'react-router-dom'
 import * as z from 'zod'
 
-import { AuthContext } from '../../../contexts/AuthProvider'
 import { apiAuth } from '../../../lib/axios'
 import { SignInContainer, SignInForm } from './styles'
 
@@ -15,7 +17,9 @@ const signInFormSchema = z.object({
 type SignInFormInputs = z.infer<typeof signInFormSchema>
 
 export function SignIn() {
-  const { setAuth } = useContext(AuthContext)
+  const navigate = useNavigate()
+
+  const [parent] = useAutoAnimate()
 
   const [errorMessageAuthorization, setErrorMessageAuthorization] =
     useState<boolean>(false)
@@ -42,18 +46,23 @@ export function SignIn() {
           },
         },
       )
-      setAuth(response.data)
+      console.log(response.data)
       if (errorMessageAuthorization) {
         setErrorMessageAuthorization(false)
       }
+      navigate('/home', { replace: true })
     } catch (err) {
-      setErrorMessageAuthorization(true)
+      if (err instanceof AxiosError) {
+        if (err.response?.status) {
+          setErrorMessageAuthorization(true)
+        }
+      }
     }
   }
 
   return (
     <SignInContainer>
-      <SignInForm onSubmit={handleSubmit(handleSignIn)}>
+      <SignInForm onSubmit={handleSubmit(handleSignIn)} ref={parent}>
         <h1>Entrar</h1>
         <input
           type="email"

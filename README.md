@@ -12,4 +12,9 @@ Project from [Rocketseat](https://www.rocketseat.com.br/)
   - Json Server
 
 
+### Home Page
+
+
+![Home](public/home.png)
+
 
